@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+#content {
+  position: relative; }
+
+select {
+  top: 0px;
+  display: block; }
+
+.item {
+  transition: top 1s linear, left 1s linear;
+  background: white;
+  border: 1px solid black;
+  height: 40px;
+  margin: 10px 0px; }
+
+/*# sourceMappingURL=styles.css.map */

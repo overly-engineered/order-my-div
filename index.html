@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>OrderMyDiv</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="js/orderMyDiv.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <div id="content">
+            <div class="item">
+                <h2>1</h2>
+            </div>
+            <div class="item">
+                <h2>4</h2>
+            </div>
+            <div class="item">
+                <h2>99</h2>
+            </div>
+            <div class="item">
+                <h2>12</h2>
+            </div>
+            <div class="item">
+                <h2>17</h2>
+            </div>
+            <div class="item">
+                <h2>3</h2>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+$('#content').orderMyDiv();
+
+       // orderType: 'Numerical',
+       // width: window.innerWidth,
+       // itemElement: 'div',
+       // selectPosition: 'start',
+       // globalID: '#content',
+       // anim: true,
+       // orderBy : 'h2'
+        </script>
+    </body>
+
+</html>
+
